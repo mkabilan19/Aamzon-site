@@ -9,13 +9,12 @@ function App() {
   return (
     <Router>
       <div className="app">
-      <Switch>
+       <Header /> {/* header will render in every page*/ }
+        <Switch>
           <Route path="/checkout">
-            <Header />
             <Checkout />
           </Route>
           <Route path="/">
-            <Header />
             <Home />
           </Route>
         </Switch>
