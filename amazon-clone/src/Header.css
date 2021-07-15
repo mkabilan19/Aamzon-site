@@ -2,9 +2,10 @@
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: #131921;
+  background-color: black;
   position: sticky;
   top: 0;
+  font-family: 'Ubuntu', sans-serif;
   z-index: 100;
 }
 .header__logo {
